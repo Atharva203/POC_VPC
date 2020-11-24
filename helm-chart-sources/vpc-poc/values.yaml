@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 061119981998/vpcpoc
+  repository: 061119981998/vpcflowlogspocv02
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -79,5 +79,15 @@ tolerations: []
 affinity: {}
 
 awsCred:
-  AWS_ACCESS_KEY_ID: AKIAUAMHQEQWG7WO3L4V
-  AWS_SECRET_ACCESS_KEY: 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
+  AWS_ACCESS_KEY_ID: 
+  AWS_SECRET_ACCESS_KEY: 
+lmCred:
+  LM_ACCESS_KEY_ID: 
+  LM_SECRET_ACCESS_KEY: 
+  COMPANY: qauat01
+S3:
+  bucketName: flowlogbucketrohit2
+  directory: 
+VPC:
+  CIDR: 1
+

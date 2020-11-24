@@ -3,23 +3,23 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-20T23:45:08.829899+05:30"
+    created: "2020-11-24T22:11:48.140635+05:30"
     description: A Helm chart for Kubernetes
-    digest: 0a5d35027aa53a448594d0c62035a324bdd6ea0227ff2f975424a1431fcac6a6
+    digest: 2cc30192e1087c5ffecdfe0126bb415be9a5491816a376c759c6664327a7e246
     name: helm-chart-test
     type: application
     urls:
-    - https://Atharva203.github.io/POC_VPC/helm-chart-test-0.1.0.tgz
+    - https://mattiaperi.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
   vpc-poc:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-20T23:45:08.830451+05:30"
+    created: "2020-11-24T22:11:48.14114+05:30"
     description: A Helm chart for vpc-poc
-    digest: 09f03e5445c08571635390dc818ce88920e4766f631ce5783dbb640c86dfd975
+    digest: ee3142186181f1236317a967ac4afda5c9c5b2b69355d7006db464b494ac19c4
     name: vpc-poc
     type: application
     urls:
-    - https://Atharva203.github.io/POC_VPC/vpc-poc-0.1.0.tgz
+    - https://mattiaperi.github.io/helm-chart/vpc-poc-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-20T23:45:08.829232+05:30"
+generated: "2020-11-24T22:11:48.140037+05:30"
